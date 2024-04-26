@@ -30,7 +30,7 @@ Welcome to Snake Reinforcement Learning, a Python implementation of the classic 
 
 To train the Snake AI, run the following command:
 ```bash
-python fast_snake_reinforcement_learning + QL plot.py
+python fast-snake_reinforcement_learning + QL plot.py
 ```
 
 ### Instructions
