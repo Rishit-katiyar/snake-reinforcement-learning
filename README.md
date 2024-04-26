@@ -12,19 +12,30 @@ Welcome to Snake Reinforcement Learning, a Python implementation of the classic 
 ### Installation
 
 1. Clone the repository:
-    ```bash
-    git clone https://github.com/Rishit-katiyar/snake-reinforcement-learning.git
-    ```
+   ```bash
+   git clone https://github.com/Rishit-katiyar/snake-reinforcement-learning.git
+   ```
 
 2. Navigate to the project directory:
-    ```bash
-    cd snake-reinforcement-learning
-    ```
+   ```bash
+   cd snake-reinforcement-learning
+   ```
 
 3. Install the required dependencies:
-    ```bash
-    pip install pygame numpy matplotlib
-    ```
+   ```bash
+   pip install pygame numpy matplotlib
+   ```
+
+4. (Optional) Create a virtual environment:
+   ```bash
+   python -m venv env
+   source env/bin/activate
+   ```
+
+5. Install the project dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ### Usage
 
@@ -36,16 +47,16 @@ python fast-snake_reinforcement_learning + QL plot.py
 ### Instructions
 
 1. **Game Controls:**
-    - Use the arrow keys to control the movement of the Snake.
-    - Press `Q` to quit the game.
+   - Use the arrow keys to control the movement of the Snake.
+   - Press `Q` to quit the game.
 
 2. **Training:**
-    - During training, the Snake AI learns to navigate the game environment and maximize its score.
-    - Training progress is displayed in the console and visualized using matplotlib.
+   - During training, the Snake AI learns to navigate the game environment and maximize its score.
+   - Training progress is displayed in the console and visualized using matplotlib.
 
 3. **Gameplay:**
-    - The Snake AI attempts to eat the food items while avoiding obstacles and its own body.
-    - The game ends if the Snake collides with a wall, obstacle, or itself.
+   - The Snake AI attempts to eat the food items while avoiding obstacles and its own body.
+   - The game ends if the Snake collides with a wall, obstacle, or itself.
 
 ### Customize
 
